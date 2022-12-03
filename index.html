@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <title>Rank calculator</title>
+    </head>
+    <body>
+        <h1>Rank calculator</h1>
+        <div style="margin: 2em 2em;">
+            <div>
+                Enter player level to calculate approximate player rank
+            </div>
+            <input type="text" id="player_level" />
+            <button id="player_calculate" onclick="calculate_player_rank()">Calculate</button>
+            <div>
+                <label id="player_rank">-</label>
+            </div>
+        </div>
+
+        <div style="margin: 2em 2em;">
+            <div>
+                Enter clan XP to calculate approximate clan rank
+            </div>
+            <input type="text" id="clan_xp" />
+            <button id="clan_calculate" onclick="calculate_clan_rank()">Calculate</button>
+            <div>
+                <label id="clan_rank">-</label>
+            </div>
+        </div>
+    </body>
+</html>
