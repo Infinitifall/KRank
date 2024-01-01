@@ -1,13 +1,16 @@
 <html>
     <head>
         <script src="script.js"></script>
-        <title>Rank calculator</title>
+        <title>KRank calculator</title>
     </head>
     <body>
-        <h1>Rank calculator</h1>
+        <h1>KRank calculator</h1>
+        <div>
+            Based on Player and Clan leaderboard data from 2024 Jan 1.
+        </div>
         <div style="margin: 2em 2em;">
             <div>
-                Enter player level to calculate approximate player rank
+                Enter player level to estimate player rank
             </div>
             <input type="text" id="player_level" />
             <button id="player_calculate" onclick="calculate_player_rank()">Calculate</button>
@@ -18,7 +21,7 @@
 
         <div style="margin: 2em 2em;">
             <div>
-                Enter clan XP to calculate approximate clan rank
+                Enter clan XP to estimate clan rank
             </div>
             <input type="text" id="clan_xp" />
             <button id="clan_calculate" onclick="calculate_clan_rank()">Calculate</button>
